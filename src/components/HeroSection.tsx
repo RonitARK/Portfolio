@@ -33,7 +33,7 @@ export default async function HeroSection() {
     const settings = await client.fetch<{ jobTitle?: string | null; heroDescription?: PortableTextBlock[] | null } | null>(
         `*[_type == "siteSettings"][0]{ jobTitle, heroDescription }`
     );
-    const jobTitle = settings?.jobTitle?.trim() || "product @ heave";
+    const jobTitle = settings?.jobTitle?.trim() || "polymath_in_progress";
 
     return (
         <div className="hero-section">

@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { createPortal } from "react-dom";
 
-const COMMAND = "npx ronit";
+const COMMAND = "npx -y ronit_ark";
 const COPIED_MESSAGE = "Paste in terminal :3";
 
 function CopyIcon() {
@@ -88,7 +88,7 @@ export default function MoreSection() {
       <div className="more-section">
         <div className="more-command-wrap">
           <div className="more-command">
-            <span className="more-prompt">%</span>
+            <span className="more-prompt">$</span>
             <code>{COMMAND}</code>
           </div>
           <button

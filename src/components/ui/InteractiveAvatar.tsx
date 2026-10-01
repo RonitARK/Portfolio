@@ -20,8 +20,8 @@ export default function InteractiveAvatar({ width = 122, height = 122, priority 
             style={{ position: 'relative' }}
         >
             <Image
-                src="/avatar.png"
-                alt="Ronit Gupta Avatar"
+                src="/avatar.png?v=3"
+                alt="Ronit Avatar"
                 width={width}
                 height={height}
                 priority={priority}
@@ -31,15 +31,15 @@ export default function InteractiveAvatar({ width = 122, height = 122, priority 
             />
 
             <Image
-                src="/blush.png"
-                alt="Ronit Gupta Blushing"
+                src="/blush.png?v=1"
+                alt="Ronit Blushing"
                 width={width}
                 height={height}
                 priority={priority}
                 style={{
                     objectFit: "cover",
                     position: "absolute",
-                    top: 0,
+                    top: -20,
                     left: 0,
                     transition: "opacity 0.4s ease",
                     opacity: isHovered ? 1 : 0
