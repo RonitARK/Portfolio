@@ -1,4 +1,4 @@
-# RG Portfolio
+# Portfolio
 
 A modern, content-driven personal portfolio of Ronit, built with Next.js, TypeScript, Tailwind CSS, and Sanity CMS.
 
