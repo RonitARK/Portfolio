@@ -2,7 +2,7 @@ const DEFAULT_METADATA = {
   siteTitle: 'AI & Software Engineer | Ronit Gupta',
   siteDescription:
     'AI & software developer focused on accessible interfaces, design systems, and modern web applications. AI & software engineer building intelligent systems, experimenting with technology, and exploring the intersection of software, AI, and first-principles thinking. Product-focused software engineer who builds apps, systems, and experiences with strong UX and creative intent. Uses AI to accelerate execution, not replace originality. Drawn to early-stage startups and people who care about craft.',
-  siteUrl: 'https://ronitgupta.in',
+  siteUrl: 'https://www.ronitgupta.dev/',
   openGraphTitle: 'AI Engineer & Builder | Systems, AI & Software — Ronit Gupta',
   openGraphDescription:
     'I build software, music, and products with taste. UX-first, systems-minded, and obsessed with making things that feel right. Looking to work with founders and creative builders.',
