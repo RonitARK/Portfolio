@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useCallback, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -82,13 +83,13 @@ export default function Navigation() {
 
             <header className="top-nav">
                 <nav>
-                    <a href="/" className={`nav-link ${pathname === "/" ? "active" : ""}`}>home</a>
-                    <a href="/about" className={`nav-link ${pathname === "/about" ? "active" : ""}`}>about</a>
+                    <Link href="/" className={`nav-link ${pathname === "/" ? "active" : ""}`}>home</Link>
+                    <Link href="/about" className={`nav-link ${pathname === "/about" ? "active" : ""}`}>about</Link>
                     <div className="nav-logo" onClick={triggerStars} style={{ cursor: "pointer" }}>
-                        <Image src="/logo.avif" alt="Logo" width={28} height={28} style={{ objectFit: 'contain' }} />
+                        <Image src="/logo.avif" alt="Logo" width={50} height={50} style={{ objectFit: 'contain' }} />
                     </div>
                     <a href={resumeUrl} target={resumeUrl !== "/resume" ? "_blank" : undefined} rel={resumeUrl !== "/resume" ? "noopener noreferrer" : undefined} className={`nav-link ${pathname === "/resume" ? "active" : ""}`}>resume</a>
-                    <a href="/contact" className={`nav-link ${pathname === "/contact" ? "active" : ""}`}>contact</a>
+                    <Link href="/contact" className={`nav-link ${pathname === "/contact" ? "active" : ""}`}>contact</Link>
                 </nav>
             </header>
         </>
