@@ -40,9 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   │   ├── blogs/
 │   │   ├── contact/
 │   │   ├── dev/
-│   │   ├── film/
 │   │   ├��─ studio/         # Sanity Studio route
-│   │   └── uiux/
 │   ├── components/         # Reusable portfolio UI components
 │   ├── lib/                # Shared application utilities
 │   ├── sanity/             # Sanity client, schemas, queries, and metadata helpers
