@@ -26,7 +26,7 @@ function ExperienceItem({ company, role, date, location, description, logo, link
         width: "100%",
         height: "100%",
         objectFit: "contain" as "contain",
-        filter: "grayscale(100%)",
+        filter: "none",
         transform: isSmallerLogo ? "scale(0.7)" : "scale(1)",
         transition: "transform 0.3s ease"
     };
